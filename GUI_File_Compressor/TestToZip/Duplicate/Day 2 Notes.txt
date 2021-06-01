@@ -1,0 +1,14 @@
+Tasks to Complete
+R̶e̶v̶i̶e̶w̶ ̶I̶n̶t̶e̶r̶n̶ ̶G̶u̶i̶d̶e̶b̶o̶o̶k̶
+Complete About Me Slide
+S̶e̶n̶d̶ ̶L̶ ̶C̶a̶r̶r̶ ̶m̶y̶ ̶p̶a̶s̶s̶p̶o̶r̶t̶
+O̶r̶d̶e̶r̶ ̶I̶T̶M̶ ̶L̶e̶a̶r̶n̶i̶n̶g̶ ̶A̶c̶c̶e̶s̶s̶
+
+code comments
+error handling
+	try,catch
+database
+	sql server
+	credentials to connect to test database
+	odbc
+dictionary, list

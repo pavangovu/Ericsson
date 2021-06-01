@@ -38,6 +38,13 @@ namespace GUI_File_Compressor
             this.defaultCompression = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.label2 = new System.Windows.Forms.Label();
+            this.startDate = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.endDate = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.startDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.endDate)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox_path
@@ -59,7 +66,7 @@ namespace GUI_File_Compressor
             // 
             // button_compressionTrigger
             // 
-            this.button_compressionTrigger.Location = new System.Drawing.Point(793, 61);
+            this.button_compressionTrigger.Location = new System.Drawing.Point(792, 118);
             this.button_compressionTrigger.Name = "button_compressionTrigger";
             this.button_compressionTrigger.Size = new System.Drawing.Size(151, 28);
             this.button_compressionTrigger.TabIndex = 2;
@@ -80,7 +87,7 @@ namespace GUI_File_Compressor
             // speed
             // 
             this.speed.AutoSize = true;
-            this.speed.Location = new System.Drawing.Point(190, 66);
+            this.speed.Location = new System.Drawing.Point(225, 69);
             this.speed.Name = "speed";
             this.speed.Size = new System.Drawing.Size(82, 19);
             this.speed.TabIndex = 4;
@@ -91,7 +98,7 @@ namespace GUI_File_Compressor
             // compression
             // 
             this.compression.AutoSize = true;
-            this.compression.Location = new System.Drawing.Point(326, 66);
+            this.compression.Location = new System.Drawing.Point(313, 69);
             this.compression.Name = "compression";
             this.compression.Size = new System.Drawing.Size(120, 19);
             this.compression.TabIndex = 5;
@@ -102,7 +109,7 @@ namespace GUI_File_Compressor
             // defaultCompression
             // 
             this.defaultCompression.AutoSize = true;
-            this.defaultCompression.Location = new System.Drawing.Point(489, 66);
+            this.defaultCompression.Location = new System.Drawing.Point(157, 69);
             this.defaultCompression.Name = "defaultCompression";
             this.defaultCompression.Size = new System.Drawing.Size(65, 19);
             this.defaultCompression.TabIndex = 6;
@@ -113,7 +120,7 @@ namespace GUI_File_Compressor
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 68);
+            this.label1.Location = new System.Drawing.Point(14, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(137, 15);
             this.label1.TabIndex = 7;
@@ -121,17 +128,62 @@ namespace GUI_File_Compressor
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(13, 110);
+            this.progressBar.Location = new System.Drawing.Point(14, 162);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(930, 19);
             this.progressBar.TabIndex = 8;
-            //this.progressBar.Click += new System.EventHandler(this.progressBar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 118);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(158, 15);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Only compress files between";
+            // 
+            // startDate
+            // 
+            this.startDate.Location = new System.Drawing.Point(240, 113);
+            this.startDate.Name = "startDate";
+            this.startDate.Size = new System.Drawing.Size(37, 23);
+            this.startDate.TabIndex = 10;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(277, 118);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 15);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "days old.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(211, 118);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(27, 15);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "and";
+            // 
+            // endDate
+            // 
+            this.endDate.Location = new System.Drawing.Point(173, 113);
+            this.endDate.Name = "endDate";
+            this.endDate.Size = new System.Drawing.Size(37, 23);
+            this.endDate.TabIndex = 15;
             // 
             // Visuals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(955, 144);
+            this.ClientSize = new System.Drawing.Size(955, 193);
+            this.Controls.Add(this.endDate);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.startDate);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.defaultCompression);
@@ -143,6 +195,8 @@ namespace GUI_File_Compressor
             this.Controls.Add(this.textBox_path);
             this.Name = "Visuals";
             this.Text = "Directory Compression Tool";
+            ((System.ComponentModel.ISupportInitialize)(this.startDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.endDate)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +213,11 @@ namespace GUI_File_Compressor
         private System.Windows.Forms.RadioButton defaultCompression;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown startDate;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown endDate;
     }
 }
 
