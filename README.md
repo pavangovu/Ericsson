@@ -2,6 +2,9 @@
 A standalone Windows desktop application that enables users to selectively zip files that fall within a specific date range. The application can also be automated via services.msc and Windows' built-in Task Scheduler to periodically zip old or unused files. That way, one can reduce system clutter in the background without running the risk of potentially deleting something important. 
 
 
+Powered by **[IonicZip compression engine](https://documentation.help/DotNetZip/)**.
+
+
 ## GUI
 ![alt text](https://github.com/pavangovu/When2Zip/blob/main/Demo%20Screenshots/Demo.JPG)
 
