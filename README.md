@@ -3,7 +3,7 @@ A standalone Windows desktop application that enables users to selectively zip f
 
 
 ## GUI
-![alt text](https://github.com/pavangovu/When2Zip/blob/main/Demo.JPG)
+![alt text](https://github.com/pavangovu/When2Zip/blob/main/Demo%20Screenshots/Demo.JPG)
 
 ## Compression Modes
 - **Best Compression:** The "best" compression, where best means greatest reduction in size of the input data stream. This is also the slowest compression.
