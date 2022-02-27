@@ -118,5 +118,10 @@ namespace GUI_File_Compressor
         {
 
         }
+
+        private void endDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

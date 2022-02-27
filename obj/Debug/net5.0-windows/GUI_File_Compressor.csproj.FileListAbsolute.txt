@@ -18,3 +18,23 @@ C:\Users\egovpav\OneDrive - Ericsson\Ericsson\GUI_File_Compressor\obj\Debug\net5
 C:\Users\egovpav\OneDrive - Ericsson\Ericsson\GUI_File_Compressor\obj\Debug\net5.0-windows\GUI_File_Compressor.genruntimeconfig.cache
 C:\Users\egovpav\OneDrive - Ericsson\Ericsson\GUI_File_Compressor\obj\Debug\net5.0-windows\GUI_File_Compressor.csproj.CopyComplete
 C:\Users\egovpav\OneDrive - Ericsson\Ericsson\GUI_File_Compressor\bin\Debug\net5.0-windows\DotNetZip.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.exe
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.deps.json
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.runtimeconfig.json
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.runtimeconfig.dev.json
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\ref\GUI_File_Compressor.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\GUI_File_Compressor.pdb
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\bin\Debug\net5.0-windows\DotNetZip.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.csprojAssemblyReference.cache
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.Visuals.resources
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.csproj.GenerateResource.cache
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.AssemblyInfoInputs.cache
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.AssemblyInfo.cs
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.csproj.CoreCompileInputs.cache
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.csproj.CopyComplete
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\ref\GUI_File_Compressor.dll
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.pdb
+C:\Users\egovpav\OneDrive - The University of Texas at Dallas\Career\GitHubPortfolio\FileCompressor\obj\Debug\net5.0-windows\GUI_File_Compressor.genruntimeconfig.cache

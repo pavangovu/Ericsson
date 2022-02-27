@@ -154,16 +154,16 @@ namespace GUI_File_Compressor
             // 
             // startDate
             // 
-            this.startDate.Location = new System.Drawing.Point(354, 190);
+            this.startDate.Location = new System.Drawing.Point(431, 191);
             this.startDate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.startDate.Name = "startDate";
-            this.startDate.Size = new System.Drawing.Size(53, 31);
+            this.startDate.Size = new System.Drawing.Size(104, 31);
             this.startDate.TabIndex = 10;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(407, 194);
+            this.label4.Location = new System.Drawing.Point(543, 193);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 25);
@@ -173,7 +173,7 @@ namespace GUI_File_Compressor
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(312, 194);
+            this.label3.Location = new System.Drawing.Point(381, 193);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 25);
@@ -182,11 +182,12 @@ namespace GUI_File_Compressor
             // 
             // endDate
             // 
-            this.endDate.Location = new System.Drawing.Point(259, 191);
+            this.endDate.Location = new System.Drawing.Point(263, 191);
             this.endDate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.endDate.Name = "endDate";
-            this.endDate.Size = new System.Drawing.Size(53, 31);
+            this.endDate.Size = new System.Drawing.Size(110, 31);
             this.endDate.TabIndex = 15;
+            this.endDate.ValueChanged += new System.EventHandler(this.endDate_ValueChanged);
             // 
             // Visuals
             // 
