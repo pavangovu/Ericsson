@@ -60,7 +60,7 @@ namespace GUI_File_Compressor
                 endRange = endRange.Date.AddDays(1);
 
                 //debugging purposes
-                MessageBox.Show(lastModified+"\nStart Date: " + startRange + "\nEnd Date: " + endRange);
+                //MessageBox.Show(lastModified+"\nStart Date: " + startRange + "\nEnd Date: " + endRange);
 
                 //if file falls within range
                 if (lastModified >= startRange)
